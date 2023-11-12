@@ -64,10 +64,12 @@ function areaDelTriangulo(base, altura) {
    return areaTriangulo= ((base * altura)/2 );
 }
 
-function deEuroAdolar(euro= 1.20) {
+function deEuroAdolar(euro) {
    // Supongamos que 1 euro equivale a 1.20 dólares.
    // Debes calcular el valor recibido como argumento pasándolo a dolares.
    // Tu código:
+   let resultado = euro * 1.2;
+   return(resultado);
 }
 
 function esVocal(letra) {
